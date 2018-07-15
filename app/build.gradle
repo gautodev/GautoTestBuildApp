@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'jacoco'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "cc.gauto.test.gautotestbuildapp"
         minSdkVersion 15
-        targetSdkVersion 21
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
@@ -22,7 +22,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'src/main/libs')
-    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'org.greenrobot:greendao-encryption:2.2.1'
     compile "io.netty:netty-all:4.1.2.Final"
     compile 'com.google.zxing:core:3.2.1'
